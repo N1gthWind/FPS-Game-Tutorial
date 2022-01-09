@@ -55,6 +55,7 @@ public class CharacterAimingTest : MonoBehaviourPunCallbacks, IDamageable
     public GameObject crosshair;
 
     public Image healthbarImage;
+    public Canvas otherPlayerCanvas;
 
     private void Awake()
     {
@@ -76,6 +77,7 @@ public class CharacterAimingTest : MonoBehaviourPunCallbacks, IDamageable
             Destroy (rb);
             Destroy (crosshair);
             Destroy(healthbarImage);
+            otherPlayerCanvas.enabled = false;
         }
     }
 

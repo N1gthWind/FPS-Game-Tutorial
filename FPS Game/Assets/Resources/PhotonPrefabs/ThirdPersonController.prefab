@@ -47,7 +47,7 @@ PrefabInstance:
     - target: {fileID: 3852384861982744978, guid: ad3ff2f455ab0664c836300046062cc2,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.0019517483
+      value: 0.0019517491
       objectReference: {fileID: 0}
     - target: {fileID: 3852384861982744978, guid: ad3ff2f455ab0664c836300046062cc2,
         type: 3}
@@ -57,7 +57,7 @@ PrefabInstance:
     - target: {fileID: 3852384861982744978, guid: ad3ff2f455ab0664c836300046062cc2,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.008939263
+      value: -0.008939266
       objectReference: {fileID: 0}
     - target: {fileID: 3852384862003421332, guid: ad3ff2f455ab0664c836300046062cc2,
         type: 3}
@@ -356,6 +356,11 @@ PrefabInstance:
       propertyPath: healthbarImage
       value: 
       objectReference: {fileID: 2355282003282542163}
+    - target: {fileID: 5168504503164405833, guid: 344b29e78c596ad47b6e205062ce74a6,
+        type: 3}
+      propertyPath: otherPlayerCanvas
+      value: 
+      objectReference: {fileID: 6043863258473456421}
     - target: {fileID: 9164482625098755901, guid: 344b29e78c596ad47b6e205062ce74a6,
         type: 3}
       propertyPath: m_FillAmount
@@ -366,6 +371,12 @@ PrefabInstance:
 --- !u!4 &5415523389293109325 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1488053958305132835, guid: 344b29e78c596ad47b6e205062ce74a6,
+    type: 3}
+  m_PrefabInstance: {fileID: 6881901434603213166}
+  m_PrefabAsset: {fileID: 0}
+--- !u!223 &6043863258473456421 stripped
+Canvas:
+  m_CorrespondingSourceObject: {fileID: 892118962288915019, guid: 344b29e78c596ad47b6e205062ce74a6,
     type: 3}
   m_PrefabInstance: {fileID: 6881901434603213166}
   m_PrefabAsset: {fileID: 0}
