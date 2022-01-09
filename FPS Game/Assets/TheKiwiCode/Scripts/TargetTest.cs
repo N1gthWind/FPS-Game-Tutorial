@@ -86,5 +86,18 @@ public class TargetTest : MonoBehaviour
     IEnumerator RestartGame() {
         yield return new WaitForSeconds(5f);
         print("Restarting Game...");
+        PV.RPC("SendRestartData", RpcTarget.All);
+    }
+
+
+     [PunRPC]
+    void SendRestartData() {
+        Debug.LogError(PV.ViewID);
+        Debug.LogError("OWNER" + PV.Owner);
+        Debug.LogError(PV.gameObject);
+        PhotonView Player_PV = PhotonView.Find(PV.ViewID);
+        
+        PhotonNetwork.AutomaticallySyncScene = true;
+        PhotonNetwork.LoadLevel(1);
     }
 }
