@@ -356,6 +356,21 @@ PrefabInstance:
       propertyPath: healthbarImage
       value: 
       objectReference: {fileID: 2355282003282542163}
+    - target: {fileID: 5353915076702350881, guid: 344b29e78c596ad47b6e205062ce74a6,
+        type: 3}
+      propertyPath: ObservedComponents.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8125035244039079590, guid: 344b29e78c596ad47b6e205062ce74a6,
+        type: 3}
+      propertyPath: m_SynchronizeLayers.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8125035244039079590, guid: 344b29e78c596ad47b6e205062ce74a6,
+        type: 3}
+      propertyPath: m_SynchronizeParameters.Array.size
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 9164482625098755901, guid: 344b29e78c596ad47b6e205062ce74a6,
         type: 3}
       propertyPath: m_FillAmount
