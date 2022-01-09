@@ -44,6 +44,10 @@ public class MenuManager : MonoBehaviour
 	{
 		menu.Close();
 	}
+<<<<<<< HEAD
+=======
+
+>>>>>>> parent of a4da5c89 (Revert "Update menu!")
 	public void QuitGame() {
 		Application.Quit();
 	}
